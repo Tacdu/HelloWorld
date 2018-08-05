@@ -54,19 +54,5 @@
 
     </dependencies>
 
-	    <repositories>
-        <repository>
-            <id>myMavenRepo.read</id>
-             <localRepository>D:\Technical\repository</localRepository>
-        </repository>
-    </repositories>
-
-    <distributionManagement>
-        <repository>
-            <id>myMavenRepo.write</id>
-             <localRepository>D:\Technical\repository</localRepository>
-        </repository>
-    </distributionManagement>
-
 
 </project>
