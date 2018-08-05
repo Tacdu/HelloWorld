@@ -24,7 +24,7 @@ pipeline {
         stage ('Deployment Stage') {
             steps {
                 withMaven(maven : 'Maven-3.5.4') {
-                    bat 'mvn deploy'
+                    bat 'mvn test'
                 }
             }
         }
