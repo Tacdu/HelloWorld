@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.techprimers.testing</groupId>
-    <artifactId>jenkins-example</artifactId>
+    <artifactId>HelloWorld</artifactId>
     <version>1.0-SNAPSHOT</version>
 
 
@@ -22,8 +22,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
                 <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
+                    <source>C:\Program Files\Java\jdk-10.0.2\bin</source>
+                    <target>C:\Program Files\Java\jdk-10.0.2\bin</target>
                 </configuration>
             </plugin>
             <plugin>
