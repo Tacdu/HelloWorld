@@ -22,8 +22,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
                 <configuration>
-                    <source>C:\Program Files\Java\jdk-10.0.2\bin</source>
-                    <target>C:\Program Files\Java\jdk-10.0.2\bin</target>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
                 </configuration>
             </plugin>
             <plugin>
